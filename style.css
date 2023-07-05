@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(49, 3, 3);
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(41, 5, 5);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.01rem;
+    color: rgb(231, 148, 133);
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+
+}
+
+/* .firstsection > div {
+    width: 35%;
+} */
+
+.leftsection {
+    /* background-color: red; */
+    font-size: 1.8rem;
+    width: 450px;
+    margin-left: 40px;
+}
+.leftsection .btn {
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 11px;
+    background-color: rgb(71 25 25);
+    color: white;
+    font-style: italic;
+    width: 70px;
+}
+.rightsection img {
+    width: 230px;
+    margin: 14px 46px;
+}
+
+.purple {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.textgray {
+    color: gray;
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(155, 74, 74);
+    height: 1.05px;
+    margin: 17px 60px;
+}
+
+.secondsection h3 {
+    font-size: 1.5rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 1px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 45px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.leftsection {
+    /* background-color: red; */
+    font-size: 1.8rem;
+    width: 450px;
+    margin-left: 40px;
+}
+
+.rightsection img {
+    width: 230px;
+    margin: 14px 46px;
+}
+
+.purple {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.textgray {
+    color: gray;
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+section{
+    height: 350px;
+}
+main hr {
+    border: 0;
+    background-color: rgb(155, 74, 74);
+    height: 1.05px;
+    margin: 17px 60px;
+}
+
+.secondsection h3 {
+    font-size: 1.5rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 83vw;
+    height: 1px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 45px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.img-top {
+    width: 23px;
+    position: relative;
+    top: -30px;
+    left: -2px;
+}
+.img-top1 {
+    width: 50px;
+    position: relative;
+    top: -38px;
+    left: -7px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 20px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 31px;
+    font-size: 9px;
+    width: 150px;
+    color: gray;
+}
+footer{
+    background-color: rgb(41, 5, 5);
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+    color: rgb(184, 170, 170);
+}
+footer ul{
+    list-style: none;
+}
+footer .footer-rights{
+    color: rgb(184, 170, 170);
+    text-align: center;
+}
