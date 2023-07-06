@@ -215,3 +215,12 @@ footer .footer-rights{
     color: rgb(184, 170, 170);
     text-align: center;
 }
+@media screen and (max-width: 786px) {
+    .firstsection{
+        flex-direction: column-reverse;
+    }  
+    body{
+        background-color: red;
+
+    }
+}
